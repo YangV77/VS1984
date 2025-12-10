@@ -1,6 +1,6 @@
 # VS1984 Overview
 
-**VS1984** is a **Decentralized Anonymous Content Sharing Network**.
+**VS1984** is a **Decentralized Anonymous Communication & Content Sharing Network**.
 
 It aims to provide a self-hostable, anonymous and censorship-resistant
 infrastructure for creators and everyday users, in a world that often feels
