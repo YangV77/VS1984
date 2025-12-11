@@ -1,5 +1,7 @@
 # VS1984 Overview
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 **VS1984** is a **Decentralized Anonymous Communication & Content Sharing Network**.
 
 It aims to provide a self-hostable, anonymous and censorship-resistant
