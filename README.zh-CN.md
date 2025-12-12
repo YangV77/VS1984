@@ -1,5 +1,6 @@
 
 # VS1984 概览
+***现阶段, 只支持ubuntu24.04***
 
 [English](README.md) | [中文](README.zh-CN.md)
 
