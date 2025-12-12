@@ -21,6 +21,7 @@ add_custom_command(
         OUTPUT ${DEST_DIR}/routes.json ${DEST_DIR}/config.xbc
         COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SOURCE_DIR}/config.xbc ${DEST_DIR}/config.xbc
         COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SOURCE_DIR}/routes.json ${DEST_DIR}/routes.json
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${SOURCE_DIR}/vs1984-btd ${CMAKE_BINARY_DIR}/vs1984-btd
         DEPENDS ${SOURCE_DIR}/config.xbc ${SOURCE_DIR}/routes.json
         COMMENT "prepare files to build directory"
 )
@@ -41,7 +42,6 @@ set_target_properties(demo PROPERTIES
 
 target_link_libraries(demo PRIVATE xbc
         microhttpd
-        torrent-rasterbar
         pulse
         asound
         jack
