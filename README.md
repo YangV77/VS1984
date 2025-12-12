@@ -1,4 +1,5 @@
 # VS1984 Overview
+*Currently, only Ubuntu 24.04 is supported.*
 
 [English](README.md) | [中文](README.zh-CN.md)
 
