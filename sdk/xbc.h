@@ -35,7 +35,7 @@ void node_log_cb(log_handler_t handler);
 void node_anti_debugger_cb(int enable, int strict_mode, debugger_handler_t handler);
 void open_upnp_port(int port, char* desc);
 void run_cmd(char* input);
+const char *loginfo(int v);
 int  rsunxer(int argc, char const *argv[]);
-char *get_json_input_hash(char *input);
 
 #endif //LIBUV_TCP_UDP_APP_IGNIS_H
